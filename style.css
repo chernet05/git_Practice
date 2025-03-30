@@ -1,6 +1,39 @@
 body{
-    color: gainsboro;
+    background-color: gainsboro;
+    
 
+}
+#jokes{
+    width: 80%;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+#form{
+    margin: 20px auto;
+    width: 50%;
+   
+
+}
+#form *{
+    width: 100%;
+}
+#form div *{
+    display: inline-block;
+    margin:3rem;
+    margin: 10px auto;
+    width: auto;
+
+  
+}
+button{
+    height:2rem;
+}
+#container{
+    width: 100%;
+ 
 }
 header {
     margin: 2rem auto;

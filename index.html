@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
 
+
 </head>
 
 <body>
@@ -20,16 +21,28 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <header>Joke Generator</header>
-    <nav></nav>
     <main>
         <div id="jokes"></div>
-        <div>
-            <button>Joke</button>
+        <div id="container">
+            <div id="form">
+                <div>
+                    <p>Joke Type: </p>
+                    <select id="selector">
+                        <option id="kids" value="kids">Kids</option>
+                        <option id="dark" value="dark">Mature</option>
+                        <option id="dry" value="dry">dry</option>
+                        <option id="dad" value="dad">dad</option>
+                    </select>
+                </div>
+                <button>Generate Joke</button>
+
+
+            </div>
         </div>
     </main>
     <section></section>
     <footer></footer>
-    <script src="./script.js" async defer></script>
+    <script src="./script.js" type="module" async defer></script>
 </body>
 
 </html>
